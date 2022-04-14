@@ -1,0 +1,101 @@
+#main {
+    background-color: rgb(240,232,220);
+}
+
+
+#Slide-show {
+    width: 100%;
+    
+}
+
+#header {
+    width: 100%;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;  
+    background-color: teal;
+}
+#header > div{
+    margin-left: auto;
+    width: 30%;
+    height: 100%;
+    border: 1px solid none;
+    display: flex;
+    justify-content: space-around;
+}
+a {
+    color: white;
+}
+
+/* <-- Slide --> */
+
+#slide_img {
+    width: 100%;
+    margin: auto;
+    
+}
+img {
+    height: 400px;
+}
+
+
+/* <-- Movie_Images --> */
+
+#movies {
+ width: 100%;
+ margin: 2em auto;
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 25px;
+ 
+}
+
+#movies > div {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 50px;
+    padding: 50px 50px;
+    background-color: teal;
+}
+
+
+#movies > div:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* <-- Sorting Area --> */
+#sort-buttons {
+    margin-top: 20px;
+    margin-left: 35%;
+    
+}
+.filter {
+   padding: 10px 10px;
+   border-radius: 5px;
+   font-size: large;
+   margin-left: 10px;
+   font-weight: bold;
+   
+}
+p {
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    font-size: 25px;
+}
+
+/* MEDEIA QUERIES FOR TABLET VIEW */
+@media all and (min-width: 551px) and (max-width: 850px){
+  
+
+    
+}
+
+/* MEDEIA QUERIES FOR MOBILE VIEW */
+@media all and (max-width: 551px){
+
+
+}
