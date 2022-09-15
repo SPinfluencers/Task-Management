@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "name": "Interview - 1",
+      "date": "2022-09-14T00:00:00.000Z",
+      "details": "Make an task Application",
+      "id": 1
+    },
+    {
+      "name": "Interview - 2",
+      "date": "2022-09-16T00:00:00.000Z",
+      "details": "Make new App",
+      "id": 2
+    }
+  ]
+}
