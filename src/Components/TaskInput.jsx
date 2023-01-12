@@ -7,7 +7,7 @@ const TaskInput = () => {
     // const [buttonText, setButtonText] = React.useState("Next")
 
     const getData = () => {
-        axios.get(`http://localhost:3004/data`).then((res) => {
+        axios.get(`https://erin-healthy-nightingale.cyclic.app/task_data`).then((res) => {
             console.log(res.data)
             setTable(res.data)
         })

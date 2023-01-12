@@ -11,7 +11,7 @@ const Task = () => {
     const onSubmit = (data) => {
         // data.preventDefault();
     //    console.log(data)
-       axios.post(`http://localhost:3004/data`, {...data})
+       axios.post(`https://erin-healthy-nightingale.cyclic.app/task_data`, {...data})
        .then((res) => {
         console.log(res)
        })
@@ -21,7 +21,7 @@ const Task = () => {
     }
 
     const getData = () => {
-        axios.get(`http://localhost:3004/data`)
+        axios.get(`https://erin-healthy-nightingale.cyclic.app/task_data`)
         .then((res) => {
             setstate(res.data)
             console.log(res)
